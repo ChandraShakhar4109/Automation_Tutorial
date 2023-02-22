@@ -1,3 +1,20 @@
+/*
+Topics:
+-------
+1) Project Folder Structure
+2) File Extensions
+    Different file formats for different entities
+	Test Case  -> .robot
+	Test data  -> .xls (excel file)
+	Notepad -> .txt (to prepare some data)
+	Python -> .py (to create Keywords)
+
+3) Multiple sections in Robot file
+4) Writing Test case
+5) Variables & Keywords
+6) Reporting
+
+*/
 *** Settings ***
 Library  SeleniumLibrary
 
