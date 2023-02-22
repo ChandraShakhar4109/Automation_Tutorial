@@ -15,11 +15,14 @@ ${browser}  chrome
 Testing Radio Button and Check Boxes
     open browser    ${url}    ${browser}
     maximize browser window
-    set selenium speed    2
+    set selenium speed    2    #every statement will 2 seconds to execute
+
+    # Selecting Radio Button
                                             #parameters
     select radio button    sex    Female    # name    value
     select radio button    exp    4
 
+    # Selecting Radio Button
     select checkbox    Automation Tester
     select checkbox    Manual Tester
 
