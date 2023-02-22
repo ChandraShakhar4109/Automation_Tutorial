@@ -1,3 +1,9 @@
+/*
+Topics:
+---------
+1) How To Select Radio Buttons & Check Boxes
+2) How to Un-Select
+*/
 *** Settings ***
 Library    SeleniumLibrary
 
@@ -10,8 +16,8 @@ Testing Radio Button and Check Boxes
     open browser    ${url}    ${browser}
     maximize browser window
     set selenium speed    2
-
-    select radio button    sex    Female
+                                            #parameters
+    select radio button    sex    Female    # name    value
     select radio button    exp    4
 
     select checkbox    Automation Tester
