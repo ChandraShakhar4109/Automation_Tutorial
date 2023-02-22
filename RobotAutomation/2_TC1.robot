@@ -14,6 +14,9 @@ Topics:
 5) Variables & Keywords
 6) Reporting
 
+Robot Framework Keywords reference:
+http://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+
 */
 *** Settings ***
 Library  SeleniumLibrary
