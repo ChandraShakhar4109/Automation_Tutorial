@@ -1,3 +1,7 @@
+#Topics:
+#---------
+#1) How to Handle Tabbed Windows
+#2) How to Handle Browser Windows
 *** Settings ***
 Library  SeleniumLibrary
 
