@@ -5,6 +5,7 @@ Topic: How To Select Options from Drop-Down & List Boxes in Robot Framework
 *** Settings ***
 Library    SeleniumLibrary
 
+
 *** Variables ***
 ${url}  https://www.techlistic.com/p/selenium-practice-form.html
 ${browser}  chrome
