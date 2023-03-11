@@ -1,3 +1,10 @@
+/*
+Topics:
+-----------------
+1) Capture Element Screen Shot
+2) Capture Page Screen Shot
+
+*/
 *** Settings ***
 Library  SeleniumLibrary
 
