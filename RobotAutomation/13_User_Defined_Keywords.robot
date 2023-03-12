@@ -1,6 +1,15 @@
+
+#Topics
+#-------------
+#1)User Defined Keyword without Arguments
+#2)User Defined Keyword with Arguments
+#3)User Defined Keyword with Arguments & Return value
+#4)Resource Files
+
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../Resources/resources.robot
+Resource    ../Resources/13_resources.robot
+
 *** Variables ***
 ${url}    https://demo.guru99.com/test/newtours/
 ${browser}    chrome
@@ -8,6 +17,8 @@ ${browser}    chrome
 *** Test Cases ***
 #1)
 #UD_Keywords_without_arguments
+#     [Documentation]    UD_Keywords_without_arguments
+#     ...    Comments only visible in code
 #    #there will be no argument in Keywords
 #    launch_browser_ud_keywords_without_arguments
 #    input text    name:userName    mercury
