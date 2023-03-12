@@ -24,7 +24,7 @@ MouseOperations
     open context menu  xpath://span[contains(text(),'right click me')]
 
 #    sleep  3
-#
+
 #    go to  ${url2} #going to another url
 #    double click element  xpath://button[contains(text(),'Copy Text')]
     sleep  3
