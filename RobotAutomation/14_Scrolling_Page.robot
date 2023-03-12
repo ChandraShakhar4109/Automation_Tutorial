@@ -1,3 +1,9 @@
+#Topics Covered
+#Scrolling page using JavaScriptExecutor
+# 1 Scrolling page till it reach a pixel number
+# 2 Scrolling page till find element on page
+# 3 Scroll till the bottom
+
 *** Settings ***
 Library    SeleniumLibrary
 
